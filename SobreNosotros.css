@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1000000;
+    width: 100%;
+    box-shadow: 0 4px 25px -20px black;
+}
+
+.nav{
+    justify-content: space-between;   
+    display: flex;
+
+}
+
+.logo img{
+    height: 60px;
+    margin: 0;
+    padding: 5px;
+}
+
+.seccion ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.seccion li{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.seccion li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 21px;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.seccion li a:hover{
+    color: #0090ce;
+}
+
+/*cotenido contenido contenido  contenido  contenido  contenido  contenido  contenido  contenido*/
+
+.inicio{
+    padding: 100px;
+    padding-top: 163px;
+    background-image: url(img/art_verano19.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: #000000e1;
+}
+
+.inicio h1{
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+section{
+    padding: 100px;
+    padding-top: 50px;
+}
+.info{
+    display: flex;
+}
+
+.info h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.info p{
+    text-align: justify;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.info img{
+    width: 40%;
+    padding-left: 20px;
+}
+
+/* footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+
+footer{
+    background-color: #49a9f8;
+}
+
+.redes{
+    display: block;
+}
+
+.redes ul{
+    display:flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.redes li{
+    background-color: #ffffff;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 15px;  
+    margin-bottom: 5px;
+}
+
+.redes img{
+    display: block;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.access{
+    display: flex;
+    justify-content: center;
+}
+
+.access ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.access ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    
+}
+
+.access a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 21px;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+}
+
+.access a:hover{
+    color:#d6d6d6;
+}
+
+.copy{
+    padding: 10px;
+    background-color: #236398;
+}
+
+.copy p{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+}

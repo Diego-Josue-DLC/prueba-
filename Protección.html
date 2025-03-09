@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeraVe | Protecion UV</title>
+    <link rel="stylesheet" href="Protección.css">
+    <link rel="icon" type="imagen/png"    href="img/Latam_cerave_header_logo.png">
+</head>
+<body>
+
+    <header id=".">
+        <a href="#" class="menu"><img src="img/menu.png" alt="menu"></a>
+        <a href="index.html" class="logo"><img src="img/cerave.jpeg" alt="ceraVE"></a>
+        <a href="#" class="button">CONTÁCTANOS</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Rayos UV</a></li>
+            <li><a href="salud.html">Efectos en la Salud</a></li>
+            <li><a href="#.">Protección UV</a></li>
+            <li><a href="indice.html">Índice UV</a></li>
+            <li><a href="AlertraUV.html">Alerta UV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="#.">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <script>
+        let lastScroll = 0;
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector(".navbar");
+            let currentScroll = window.pageYOffset;
+
+            if (currentScroll > 60) {                                   // Solo aparece después de bajar 60px //
+                navbar.classList.add("show");
+            } 
+            else {
+                navbar.classList.remove("show");
+            }
+        });
+    </script>
+
+    <div class="banner" id="banner">
+        <H1>Protección ultravioleta (UV)</H1>
+    </div>
+
+    <div class="contenido">
+        
+            
+        <div class="info">
+            <p>Resulta que la radiación ultravioleta puede suponer un peligro para los ojos durante todo el año, tanto en exteriores procedentes del sol como en interiores procedentes de fuentes artificiales, incluidas las máquinas de soldar. Por eso es tan importante tomar precauciones diarias contra los efectos negativos de la sobreexposición.</p>
+            <h3>Un día todavía puede hacer daño</h3>
+            <p>Si sus ojos están expuestos a cantidades excesivas de radiación UV durante un corto período de tiempo, es probable que sufra fotoqueratitis. Al igual que una "quemadura solar en el ojo", la fotoqueratitis puede ser dolorosa y presentar síntomas como ojos rojos, sensación de cuerpo extraño o arenilla en los ojos, sensibilidad extrema a la luz y lagrimeo excesivo. Afortunadamente, estos síntomas suelen ser temporales y rara vez causan daño permanente a los ojos.</p>
+            <div class="informacion">
+                <div>
+                    <h3>Sobreexposición <br> a lo largo del tiempo</h3>
+                    <p>Una mayor exposición a la radiación solar aumenta el riesgo de enfermedades oculares. Dado que no se conoce el nivel exacto de peligro, se recomienda usar sombrero de ala ancha y gafas de sol con protección UV al estar al aire libre.</p>    
+                </div>
+                <img src="img/sobreexposicion.jpg" alt="Cuidado de la piel">
+            </div>
+            <h3>Para brindar una protección adecuada a sus ojos, las gafas de sol deben:</h3>
+            <div class="list">
+                <ul>
+                    <li>Bloquea el 100% de la radiación UV-A y UV-B.</li>
+                    <li>Filtra entre el 75 y el 90% de la luz visible.</li>
+                    <li>Disponemos de lentes con un color perfectamente combinado y libres de distorsiones e imperfecciones.</li>
+                    <li>Disponemos de lentes de color gris para un correcto reconocimiento del color.</li>
+                </ul>   
+            </div>
+            <h3>No olvidemos los riesgos en interiores</h3>
+            <div class="informacion">
+                <p>Las fuentes artificiales de luz ultravioleta, como las máquinas de soldar, las camas solares y los láseres, también pueden causar graves problemas de salud ocular. En su examen ocular anual, consulte a su optometrista sobre los riesgos y elija lentes con protección UV según sus necesidades.</p>
+                <img src="img/Welding.jpg" alt="Soldador">
+            </div>
+    
+        </div>
+        
+        <aside>
+            <div class="dato">
+                <h2>¿Sabías que...?</h2>
+                <p>Cada vez que te expones al sol sin protección, tu piel "recuerda" el daño causado por los rayos UV.</p>
+                <p>Con el tiempo, este daño se acumula y puede provocar envejecimiento prematuro, manchas y aumentar el riesgo de cáncer de piel. Incluso si las quemaduras solares desaparecen, sus efectos pueden manifestarse años después.</p>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="logo-footer">
+                <a href="#index.html"><img src="img/cerave_footer_logo1.svg" alt="ceraVE"></a>
+            </div>
+            <div class="contactanos">
+                <a href="#contactanos"><img src="img/email (1).png" alt="">Contáctanos</a>
+            </div>
+            <h6>© 2025 Protección UV. <br>Todos los derechos reservados.</h6>
+            <div class="links">
+                <a href="https://www.facebook.com/CeravePeru?u=" target="_blank"><img src="img/facebook (1).png" alt=""></a>
+                <a href="https://www.instagram.com/ceraveperu/?hl=es" target="_blank"><img src="img/instagram (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>

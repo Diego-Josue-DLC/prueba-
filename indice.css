@@ -1,0 +1,272 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header header header */
+
+header{
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px #d6d6d6;
+    font-family: Arial, sans-serif;
+}   
+
+header img{
+    padding: 5px;
+}
+
+.menu img{
+    width: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logo img{
+    height: 50px;
+    padding: 5px;
+}
+
+.button{
+    background-color: #1b83d8;
+    border: none;
+    color: #ffffff;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+    margin: 8px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Mediuxm', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    border-bottom: solid 1px #d6d6d6;
+    height: 54px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 18px;
+}
+
+nav li{
+    padding-bottom: 13px;
+}
+
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+nav li:hover{
+    padding-bottom: 13px;
+    border-bottom: 5px solid #0072cd;
+}
+
+.navbar {
+    position: fixed;
+    top: -54px; /* Oculto inicialmente */
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+
+.show {
+    top: 0;
+}
+
+/*cotenido contenido contenido  contenido  contenido  contenido  contenido  contenido  contenido*/
+
+.inicio{
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-left: 140px;
+    background-image: url(img/art_verano19.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000cb;
+}
+
+.info p{
+    text-align: justify;
+}
+
+.inicio h1{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    padding: 140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.datos{
+    border: solid 2px #003363;
+    margin: 30px;
+    width: 280px;
+    position: relative;
+    top: -30px;
+}
+
+.datos h3{
+    background-color: #003363;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.datos p{
+    padding: 15px;
+    text-align: justify;
+    color: #444444;
+   	font-size: 17px;
+}
+
+.info p{
+    line-height: 23px;
+    color: #444444;
+   	font-size: 17px;
+}
+
+.info img{
+    padding-top: 20px;
+}
+
+.cuadros{
+    border: solid 2px #003363;
+    margin-top: 20px;
+}
+
+.cuadros h2{
+    background-color: #003363;
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.informacion p{
+    padding: 20px;
+    color: #444444;
+   	font-size: 17px;
+}
+
+.informacion ul{
+    padding: 35px;
+    padding-top: 0;
+    padding-left: 40px;
+    list-style-type: square;
+}
+
+.informacion li{
+    color: #444444;
+   	font-size: 17px;
+}
+
+.informacion img{
+    padding: 20px;
+    height: 100%;
+}
+
+.informacion{
+    display: flex;
+    line-height: 28px;
+}
+
+/* footer footer footer footer footer footer footer footer footer footer footer footer footer footer */
+
+footer{
+    height: 100%;
+    background-color: #003363;
+    padding: 35px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #fffffc;
+    padding-bottom: 20px;
+}
+
+.logo-footer img{
+    height: 80px;
+}
+
+.contactanos{
+    display: flex;
+}
+
+.contactanos img{
+    height: 40px;
+    display: block;
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.links img{
+    height: 40px;
+    margin: 10px;
+    padding-bottom: 0px;
+}
+
+.footer h6{
+    color: #ffffff;
+    font-size: 15px;
+    height: 0px;
+}
+
+.footer a{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-footer ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.nav-footer a{
+    padding: 20px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nav-footer a:hover{
+    padding-bottom: 13px;
+    border-bottom: 5px solid #ffffff;
+}
+
+.links{
+    padding: 10px;
+}

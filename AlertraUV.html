@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeraVe | Efectos en la salud</title>
+    <link rel="stylesheet" href="AlertaUV.css">
+    <link rel="icon" type="imagen/png"    href="img/Latam_cerave_header_logo.png">
+</head>
+<body>
+    <header id=".">
+        <a href="#" class="menu"><img src="img/menu.png" alt="menu"></a>
+        <a href="index.html" class="logo"><img src="img/cerave.jpeg" alt="ceraVE"></a>
+        <a href="#" class="button">CONTÁCTANOS</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Rayos UV</a></li>
+            <li><a href="salud.html">Efectos en la Salud</a></li>
+            <li><a href="Protección.html">Protección UV</a></li>
+            <li><a href="indice.html">Índice UV</a></li>
+            <li><a href="#.">Alerta UV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indICE.html">Índice UV</a></li>
+                <li><a href="#.">Alerta UV</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <script>
+        let lastScroll = 0;
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector(".navbar");
+            let currentScroll = window.pageYOffset;
+
+            if (currentScroll > 60) {                                   // Solo aparece después de bajar 60px //
+                navbar.classList.add("show");
+            } 
+            else {
+                navbar.classList.remove("show");
+            }
+        });
+    </script>
+
+    <div class="inicio" id="inicio">
+        <h1>Alerta UV</h1>
+    </div>
+
+    <section>
+
+        <aside>
+            <div class="datos">
+                <h1>Informacion sobre los rayos UV</h5>
+                <ul>
+                    <li><a href="#FAQ">Preguntas frecuentes sobre las Alertas UV</a></li>
+                    <li><a href="salud.html">Efectos en la Salud</a></li>
+                    <li><a href="Protección.html">Protección UV</a></li>
+                    <li><a href="indice.html">Índice UV</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="info">
+            <h2>Es crucial que conozca el nivel de rayos ultravioleta (UV) antes de planificar sus actividades al aire libre. El sistema de Alerta UV emite una notificación cuando se prevé un nivel de radiación solar UV más alto que el normal, con el consiguiente aumento en el riesgo de sobreexposición. La Alerta UV sugiere medidas de acción para una exposición inteligente que hay que aplicar a fin de reducir el riesgo de sobreexposición.</h2>
+            
+            <div class="FAQ" id="FAQ">
+                <h3>Preguntas frecuentes sobre las Alertas UV</h3>
+            
+                <h4>P: ¿Qué es la Alerta UV y qué significa?</h4>
+                <h2>R: La Alerta UV es una notificación de que se prevé que la cantidad de rayos ultravioleta (UV) que llegará a una localidad determinada será inusualmente intensa en comparación con los niveles históricos para esa localidad. Por ejemplo, si una zona tiene habitualmente niveles moderados de UV en primavera, pero experimenta un día soleado con una radiación UV más alta de lo normal, puede haber una Alerta UV para ese día.</h2>
+    
+                <h4>P: ¿La Alerta UV es lo mismo que el Índice UV?</h4>
+                <h2>R: No, pero la Alerta UV se basa en el Índice UV. El Índice UV es una escala de 0 (baja) a más de 11 (extrema) que indica la intensidad de la radiación solar UV que llega a la superficie terrestre en un día dado. Solo se emite una Alerta UV cuando el pronóstico del Índice UV es de al menos 6 y también cuando es estadísticamente más alto de lo normal (en o por encima del percentil 95) para la fecha. Su zona tiene un pronóstico del Índice UV todos los días, pero puede haber una Alerta UV solo algunos días por mes o ningún día.</h2>
+    
+                <h4>P: ¿Por qué el SENAMHI proporciona una Alerta UV?</h4>
+                <h2>R: El SENAMHI proporciona la Alerta UV porque la sobreexposición a los rayos solares UV es la causa más prevenible de cáncer de piel. La Alerta UV, juntamente con el Índice UV, le notifica que el riesgo de sobreexposición es mayor de lo habitual y le indica unas pocas medidas de acción para una exposición inteligente muy simples que tanto niños como adultos pueden aplicar para protegerse.</h2>
+    
+                <h4>P: ¿Cómo puedo averiguar si hay una Alerta UV para mi zona?</h4>
+                <h2>R: La Alerta UV, si es que se ha emitido una para su zona en el Perú, acompañará al pronóstico del Índice UV de el SENAMHI. También puede buscar pronósticos del <a href="https://www.tutiempo.net/peru.html">Índice UV por regiones en el Perú</a>. Además, puede suscribirse para recibir mensajes por correo electrónico con el pronóstico del Índice UV para su zona en el Perú y la Alerta UV en <a href="https://www.tutiempo.net/premium/">Tutiempo.net</a></h2>
+    
+                <h4>P: ¿Qué debo hacer si hay una Alerta UV para mi zona en el Perú?</h4>
+                <h2>R: Si el SENAMHI emitió una Alerta UV para su zona, debe tomar las siguientes medidas de acción sencillas para una exposición inteligente:</h2>
+                <div class="list">
+                    <ul>
+                        <li>Minimice el tiempo de exposición al sol, especialmente entre las 10:00 a. m. y las 4:00 p. m.</li>
+                        <li>Si está al aire libre, trate de quedarse a la sombra y use ropa de protección, un sombrero de ala ancha y gafas de sol que bloqueen los rayos UV.</li>
+                        <li>Aplíquese una cantidad generosa de protector solar de amplio espectro SPF 15+ cada 2 horas, incluso si está nublado, y después de nadar o transpirar.</li>
+                        <li>Tenga cuidado con las superficies brillantes, como la arena, el agua y la nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="logo-footer">
+                <a href="#index.html"><img src="img/cerave_footer_logo1.svg" alt="ceraVE"></a>
+            </div>
+            <div class="contactanos">
+                <a href="#contactanos"><img src="img/email (1).png" alt="">Contáctanos</a>
+            </div>
+            <h6>© 2025 Protección UV. <br>Todos los derechos reservados.</h6>
+            <div class="links">
+                <a href="https://www.facebook.com/CeravePeru?u=" target="_blank"><img src="img/facebook (1).png" alt=""></a>
+                <a href="https://www.instagram.com/ceraveperu/?hl=es" target="_blank"><img src="img/instagram (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>

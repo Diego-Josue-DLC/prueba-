@@ -1,0 +1,280 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    border-bottom: solid 1px #d6d6d6;
+    font-family: Arial, sans-serif;
+}   
+
+header img{
+    padding: 5px;
+}
+
+.menu img{
+    width: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logo img{
+    height: 50px;
+    padding: 5px;
+}
+
+.button{
+    background-color: #1b83d8;
+    border: none;
+    color: #ffffff;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+    margin: 8px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Mediuxm', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    border-bottom: solid 1px #d6d6d6;
+    height: 54px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 18px;
+}
+
+
+nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    padding: 20px 30px;
+}
+
+nav li:hover{
+    padding-bottom: 13px;
+    border-bottom: 5px solid #0072cd;
+}
+
+.navbar {
+    position: fixed;
+    top: -54px; /* Oculto inicialmente */
+    width: 100%;
+    height: 54px;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+
+.show {
+    top: 0;
+}
+
+/* portada portada portada portada */
+
+.tittle{
+    background-image: url(img/122033347_gettyimages-1286497194.jpg);
+    background-size: cover;
+    padding-top: 10px;
+    padding-left: 60px;
+    color: #284856;
+    font-style: italic;
+    height: 100vh;
+}
+
+.tittle h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tittle h2{
+    font-size: 30px;
+    margin-bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* contenido contenido contenido contenido*/
+
+.introduccion{
+    padding: 220px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    scroll-margin-top: 5ex;
+    
+}
+
+.introduccion h1{
+    font-size: 50px;
+    color: #1D1D1D;    
+}
+
+.introduccion h2{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 20px;
+    text-align: justify;
+    color: #444444;  
+}
+
+.contenido{
+    display: flex;
+    padding: 200px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+aside{
+    padding: 50px;
+    padding-left: 10px;
+}
+
+aside ul{
+    list-style-type: upper-roman;
+    margin: 0;
+    padding: 0;
+    width: 260px;
+
+}
+
+aside a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #444444;
+}
+
+aside a:hover{
+    color: #0090ce;
+    font-weight: 600;
+}
+
+.info{
+    padding-right: 20px;
+    scroll-margin-top: 5ex;
+}
+
+
+.info h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #1d1d1d;
+}
+
+.info h2{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: justify;
+    color: #444444;
+}
+
+.info h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1d1d1d;
+}
+
+.info img{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* footer footer footer footer footer footer footer footer */
+
+footer{
+    height: 100%;
+    background-color: #003363;
+    padding: 35px;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px #fffffc;
+    padding-bottom: 20px;
+}
+
+.logo-footer img{
+    height: 80px;
+}
+
+.contactanos{
+    display: flex;
+}
+
+.contactanos img{
+    height: 40px;
+    display: block;
+    padding: 25px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+.links img{
+    height: 40px;
+    margin: 10px;
+    padding-bottom: 0px;
+}
+
+.footer h6{
+    color: #ffffff;
+    font-size: 15px;
+    height: 0px;
+}
+
+.footer a{
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-footer ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.nav-footer a{
+    padding: 20px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nav-footer a:hover{
+    padding-bottom: 13px;
+    border-bottom: 5px solid #ffffff;
+}
+
+.links{
+    padding: 10px;
+}

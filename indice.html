@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeraVe | Indice UV</title>
+    <link rel="stylesheet" href="indice.css">
+    <link rel="icon" type="imagen/png"    href="img/Latam_cerave_header_logo.png">
+</head>
+<body>
+
+    <header id=".">
+        <a href="#" class="menu"><img src="img/menu.png" alt="menu"></a>
+        <a href="index.html" class="logo"><img src="img/cerave.jpeg" alt="ceraVE"></a>
+        <a href="#" class="button">CONTÁCTANOS</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Rayos UV</a></li>
+            <li><a href="salud.html">Efectos en la Salud</a></li>
+            <li><a href="Protección.html">Protección UV</a></li>
+            <li><a href="#.">Índice UV</a></li>
+            <li><a href="AlertraUV.html">Alerta UV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="#.">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <script>
+        let lastScroll = 0;
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector(".navbar");
+            let currentScroll = window.pageYOffset;
+
+            if (currentScroll > 60) {                                   // Solo aparece después de bajar 60px //
+                navbar.classList.add("show");
+            } 
+            else {
+                navbar.classList.remove("show");
+            }
+        });
+    </script>
+
+    <div class="inicio" id="Inicio">
+        <h1>Escala de índice UV</h1>
+    </div>
+    
+    <section>
+        
+        <div class="info">
+            <p>La escala del índice UV que se utiliza en Estados Unidos se ajusta a las pautas internacionales para el informe de mediciones ultravioleta (UVI) establecidas por la Organización Mundial de la Salud. (En inglés.) Aprenda cómo leer  la escala del índice UV para ayudarle a evitar una exposición perjudicial a la radiación UV. Aquí puede descargar la aplicación móvil de la EPA sobre el índice UV e informarse sobre las medidas que puede tomar para protegerse del sol.</p>       
+            <img src="img/indiceUV.jpeg" alt="indiceUV">
+            
+            <div class="cuadros">
+                <h2>0 a 2: Bajo</h2>
+                <div class="informacion">
+                    <div>
+                        <p>Una lectura de índice UV del 0 al 2 significa bajo peligro de los rayos UV del sol para una persona promedio.</p>
+                        <ul>
+                            <li>Utilice anteojos de sol los días de sol brillante.</li>
+                            <li>Si se quema con facilidad, cúbrase y use un protector solar de amplio espectro SPF 30+.</li>
+                            <li>Tenga cuidado con las superficies brillantes, como arena, agua y nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                        </ul>
+                    </div>
+                    <img src="img/verde.jpeg" alt="verde">
+                </div>
+            </div>
+            
+            <div class="cuadros">
+                <h2>3 a 5: Moderado</h2>
+                <div class="informacion">
+                   <div>
+                        <p>Una lectura de índice UV de 3 a 5 significa un riesgo moderado de daño por exposición al sol sin protección.</p>
+                        <ul>
+                            <li>Permanezca a la sombra cerca del mediodía, cuando el sol está más fuerte.</li>
+                            <li>Si está al aire libre, utilice ropa de protección, un sombrero de ala ancha y anteojos de sol que bloqueen los rayos UV.</li>
+                            <li>Aplíquese generosamente un protector solar de amplio espectro SPF 30+ cada 2 horas, incluso si está nublado, y después de nadar o sudar. Tenga cuidado con las superficies brillantes, como arena, agua y nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                        </ul>
+                   </div>
+                <img src="img/amarillo.jpeg" alt="amarillo">
+                </div>
+            </div>
+            
+            <div class="cuadros">
+                <h2>6 a 7: Alto</h2>
+                <div class="informacion">
+                    <div>
+                        <p>Una lectura de índice UV de 6 a 7 significa un riesgo alto de daño por exposición al sol sin protección. Es necesario protegerse la piel y los ojos para que no sufran daños.</p>
+                        <ul>
+                            <li>Reduzca el tiempo al sol entre las 10 a. m y las 4 p. m.</li>
+                            <li>Si está al aire libre, busque la sombra y utilice ropa de protección, un sombrero de ala ancha y anteojos de sol que bloqueen los rayos UV.</li>
+                           <li>Aplíquese generosamente un protector solar de amplio espectro SPF 30+ cada 2 horas, incluso si está nublado, y después de nadar o sudar. Tenga cuidado con las superficies brillantes, como arena, agua y nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                        </ul>
+                    </div>
+                    <img src="img/naranja.jpeg" alt="naranja">
+                </div>
+            </div>
+            
+            <div class="cuadros">
+                <h2>8 a 10: Muy alto</h2>
+                <div class="informacion">
+                    <div>
+                        <p>Una lectura de índice UV de 8 a 10 significa un riesgo muy alto de daño por exposición al sol sin protección. Tome precauciones adicionales porque la piel y los ojos sin protección resultarán dañados y pueden quemarse rápidamente.</p>
+                        <ul>
+                            <li>Minimice la exposición al sol entre las 10 a. m. y las 4 p. m.</li>
+                            <li>Si está al aire libre, busque la sombra y utilice ropa de protección, un sombrero de ala ancha y anteojos de sol que bloqueen los rayos UV.</li>
+                            <li>Aplíquese generosamente un protector solar de amplio espectro SPF 30+ cada 2 horas, incluso si está nublado, y después de nadar o sudar.</li>
+                            <li>Tenga cuidado con las superficies brillantes, como arena, agua y nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                        </ul>
+                    </div>
+                    <img src="img/rojo.jpeg" alt="rojo">
+                </div>
+            </div>
+            
+            <div class="cuadros">
+                <h2>10 a más: Extremo</h2>
+                <div class="informacion">
+                    <div>
+                        <p>Una lectura de índice UV de 11 o más significa un riesgo extremo de daño por exposición al sol sin protección. Tome todas las precauciones porque la piel y los ojos sin protección pueden quemarse en minutos.</p>
+                        <ul>
+                            <li>Trate de evitar la exposición al sol entre las 10 a. m. y las 4 p. m.</li>
+                            <li>Si está al aire libre, busque la sombra y utilice ropa de protección, un sombrero de ala ancha y anteojos de sol que bloqueen los rayos UV.</li>
+                            <li>Aplíquese generosamente un protector solar de amplio espectro SPF 30+ cada 2 horas, incluso si está nublado, y después de nadar o sudar.</li>
+                            <li>Tenga cuidado con las superficies brillantes, como arena, agua y nieve, que reflejan los rayos UV y aumentan la exposición.</li>
+                        </ul>
+                    </div>
+                    <img src="img/morado.jpeg" alt="morado">
+                </div>
+            </div>
+    
+            <div class="cuadros">
+                <h2>La regla de la sombra</h2>
+                <div class="informacion">
+                    <div>
+                        <p>Una forma fácil de saber cuánta exposición a la radiación UV está recibiendo es mirar su sombra:</p>
+                        <ul>
+                            <li>Si su sombra es más alta que usted (a la mañana temprano o bien entrada la tarde), es probable que su exposición a la radiación UV sea más baja.</li>
+                            <li>Si su sombra es más corta que usted (alrededor del mediodía), está expuesto a niveles más altos de radiación UV. Busque la sombra y proteja su piel y sus ojos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <aside>
+            <div class="datos">
+                <h3>Datos Importantes</h3>
+                <p>El Índice UV en Perú puede alcanzar niveles extremos de 15 o más, especialmente en regiones como Ica, Arequipa y Cusco.</p>
+                <p>La protección solar es fundamental incluso en días nublados, ya que los rayos UV pueden atravesar las nubes.</p>
+            </div>
+        </aside>
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="logo-footer">
+                <a href="#index.html"><img src="img/cerave_footer_logo1.svg" alt="ceraVE"></a>
+            </div>
+            <div class="contactanos">
+                <a href="#contactanos"><img src="img/email (1).png" alt="">Contáctanos</a>
+            </div>
+            <h6>© 2025 Protección UV. <br>Todos los derechos reservados.</h6>
+            <div class="links">
+                <a href="https://www.facebook.com/CeravePeru?u=" target="_blank"><img src="img/facebook (1).png" alt=""></a>
+                <a href="https://www.instagram.com/ceraveperu/?hl=es" target="_blank"><img src="img/instagram (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>

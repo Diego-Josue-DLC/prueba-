@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeraVe | Efectos en la salud</title>
+    <link rel="stylesheet" href="salud.css">
+    <link rel="icon" type="imagen/png"    href="img/Latam_cerave_header_logo.png">
+</head>
+<body>
+
+    <header id=".">
+        <a href="#" class="menu"><img src="img/menu.png" alt="menu"></a>
+        <a href="index.html" class="logo"><img src="img/cerave.jpeg" alt="ceraVE"></a>
+        <a href="#" class="button">CONTÁCTANOS</a>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Rayos UV</a></li>
+            <li><a href="#.">Efectos en la Salud</a></li>
+            <li><a href="Protección.html">Protección UV</a></li>
+            <li><a href="indice.html">Índice UV</a></li>
+            <li><a href="AlertraUV.html">Alerta UV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="#.">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+
+    <script>
+        let lastScroll = 0;
+        window.addEventListener("scroll", function () {
+            let navbar = document.querySelector(".navbar");
+            let currentScroll = window.pageYOffset;
+
+            if (currentScroll > 60) {                                   // Solo aparece después de bajar 60px //
+                navbar.classList.add("show");
+            } 
+            else {
+                navbar.classList.remove("show");
+            }
+        });
+    </script>
+
+    <div class="banner" id="banner">
+        <h4>Efectos de la radiación UV <br> en la salud</h4>
+    </div>
+    <div class="contenido">
+        <aside>
+            <div class="dato">
+                <h2>¿Sabías que...?</h2>
+                <p>En Perú, la ciudad de Ica es una de las regiones con los niveles más altos de radiación ultravioleta (UV).</p>
+                <p>Esto incrementa significativamente el riesgo de cáncer de piel, incluso en días nublados. ¡Protégete con bloqueador solar, ropa adecuada y evita la exposición prolongada al sol! </p>
+            </div>
+
+            <div class="indice">
+                <h3>Informacion sobre el Índice UV</h3>
+                <ul>
+                    <li><a href="indice.html">Escala del índice UV</a></li>
+                    <li><a href="AlertraUV.html">Alerta UV</a></li>
+                    <li><a href="home.html#RayosUV">¿Que son los rayos UV?</a></li>
+                </ul>
+            </div>
+        </aside>
+        <section>
+            <div class="efectos">
+                <p>La reducción de la capa de ozono disminuye la protección natural que ofrece nuestra atmósfera contra la radiación ultravioleta (UV) perjudicial del sol. Esta página web proporciona una descripción general de los principales problemas de salud relacionados con la sobreexposición a la radiación UV. Comprender estos riesgos y tomar algunas precauciones sensatas lo ayudará a disfrutar del sol y a reducir sus posibilidades de tener problemas de salud relacionados con el sol.</p>
+                <ul>
+                    <li><a href="#cancer">Cáncer de piel (melanoma y no melanoma)</a></li>
+                    <li><a href="#envejecimento">Envejecimiento prematuro y otros daños a la piel</a></li>
+                    <li><a href="#cataratas">Cataratas y otros daños a los ojos</a></li>
+                    <li><a href="#inmune">Supresión del sistema inmunológico</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <div class="informacion" id="cancer">
+                    <h1>Cáncer de piel</h1>
+                    <p>El cáncer de piel es una preocupación creciente en Perú, especialmente debido a los altos niveles de radiación ultravioleta (UV) que se registran en diversas regiones del país. <br> 
+                    <p> Durante la temporada de verano, los niveles de radiación UV en Perú se elevan considerablemente, lo que incrementa el riesgo de desarrollar tumores en la piel, tanto benignos como malignos, como el melanoma.</p>
+                    <p>A nivel mundial, más de 65,000 personas mueren cada año debido al cáncer de piel, y se diagnostican más de 13 millones de casos anualmente. Aunque no se dispone de estadísticas detalladas específicas para Perú, la alta exposición solar en el país sugiere una necesidad urgente de medidas preventivas.</p>
+                    <img src="img/cancer.jpeg" alt="Cancer De Piel">
+                </div>
+                
+                <div class="informacion">
+                    <h1>Melanoma</h1>
+                    <p>El melanoma, la forma de cáncer de piel más grave, es ahora uno de los cánceres más comunes entre los adolescentes y los adultos jóvenes de entre 15 y 29 años. Si bien el melanoma solo constituye alrededor de un tres por ciento de los casos de cáncer de piel, causa más del 75 por ciento de las muertes por cáncer de piel. La exposición a la radiación UV y las quemaduras solares, especialmente durante la niñez, son factores de riesgo para la enfermedad. No todos los melanomas están exclusivamente relacionados con el sol; otras influencias posibles incluyen factores genéticos y deficiencias del sistema inmunológico.</p>
+                
+                    <h1>Cánceres de piel no melanoma</h1>
+                    <p>Los cánceres de piel no melanoma son menos letales que los melanomas. Sin embargo, si no se tratan pueden extenderse, causando desfiguración y problemas de salud más graves. Existen dos tipos principales de cánceres de piel no melanoma: carcinomas de célula basal y de célula escamosa. Si se detectan y tratan a tiempo, estos dos cánceres raramente son fatales.</p>
+                    <p><b>Carcinomas de célula basal:</b> son el tipo más común de tumores de piel cancerosos. Generalmente aparecen como pequeños bultos o nódulos carnosos en la cabeza y en el cuello, pero pueden darse también en otras áreas de la piel. El carcinoma de célula basal crece lentamente, y rara vez se extiende a otras partes del cuerpo. Sin embargo, puede penetrar al hueso y causar un daño considerable.</p>
+                    <p><b>Carcinomas de célula escamosa:</b> son tumores que pueden aparecer como nódulos o como manchas rojas y escamosas. Este cáncer puede crecer a grandes masas y, a diferencia del carcinoma de célula basal, puede extenderse a otras partes del cuerpo.</p>
+                </div>
+
+                <div class="informacion" id="envejecimento">
+                    <h1>Envejecimiento prematuro y otros daños a la piel</h1>
+                <p>Otros trastornos de la piel relacionados con la radiación UV incluyen la queratosis actínica y el envejecimiento prematuro de la piel. La queratosis actínica son crecimientos de piel que ocurren en las áreas del cuerpo expuestas al sol. El rostro, las manos, los antebrazos y el escote son especialmente susceptibles a este tipo de lesión. Si bien la queratosis actínica es premaligna, es un factor de riesgo para el carcinoma de célula escamosa. Si descubre en su piel crecimientos elevados, rojizos y ásperos, consulte con un médico sin demora.</p>
+                <p>La exposición crónica al sol también causa envejecimiento prematuro, que con el tiempo puede hacer que la piel se vuelva gruesa, arrugada y curtida. Dado que esto ocurre gradualmente, a menudo manifestándose muchos años después de ocurrida la mayoría de la exposición de una persona al sol, el envejecimiento prematuro suele considerarse como inevitable o como una parte normal del envejecimiento. Sin embargo, hasta un 90 por ciento de los cambios en la piel comúnmente atribuidos al envejecimiento son causados por el sol. Con una protección adecuada contra la radiación UV, la mayor parte del envejecimiento prematuro de la piel puede evitarse.</p>
+                </div>
+                
+                <div class="informacion" id="cataratas">
+                    <h1>Cataratas y otros daños a los ojos</h1>
+                    <p>Las cataratas son una forma de daño a los ojos por el cual una pérdida de transparencia en el cristalino del ojo nubla la visión. Si no se tratan, las cataratas pueden ocasionar ceguera. La investigación ha demostrado que la radiación UV aumenta las probabilidades de ciertas cataratas. Si bien es una enfermedad curable con la cirugía ocular moderna, las cataratas disminuyen la vista de millones de estadounidenses y cuestan miles de millones de dólares en atención médica cada año.</p>
+                    <p>Otros tipos de daños a los ojos incluyen pterigión (un crecimiento de la conjuntiva que puede boquear la visión), cáncer de piel alrededor de los ojos, y degeneración de la mácula (la parte de la retina donde la percepción visual es más aguda). Todos estos problemas pueden reducirse con la protección adecuada para los ojos. Busque antojos de sol, anteojos o lentes de contacto si los usa, que ofrezcan una protección UV entre 99 y 100 por ciento.</p>
+
+                </div>
+
+                <div class="informacion" id="inmune">
+                    <h1>Supresión inmune</h1>
+                    <p>Los científicos han descubierto que la sobreexposición a la radiación UV puede suprimir el funcionamiento del sistema inmunológico del cuerpo y las defensas naturales de la piel. Por ejemplo, la piel normalmente se defiende contra los invasores extraños como cánceres e infecciones. Pero la sobreexposición a la radiación UV puede debilitar el sistema inmunológico, reduciendo la capacidad de la piel para protegerse contra estos invasores.</p>
+                    <img src="img/Immunschwaeche_Wenn_die_Abwehr_streikt.jpg" alt="Sistema inmune">
+                    <p>Actualizado el Ferbrero 9, 2025</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="logo-footer">
+                <a href="#index.html"><img src="img/cerave_footer_logo1.svg" alt="ceraVE"></a>
+            </div>
+            <div class="contactanos">
+                <a href="#contactanos"><img src="img/email (1).png" alt="">Contáctanos</a>
+            </div>
+            <h6>© 2025 Protección UV. <br>Todos los derechos reservados.</h6>
+            <div class="links">
+                <a href="https://www.facebook.com/CeravePeru?u=" target="_blank"><img src="img/facebook (1).png" alt=""></a>
+                <a href="https://www.instagram.com/ceraveperu/?hl=es" target="_blank"><img src="img/instagram (1).png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <ul>
+                <li><a href="index.html">Rayos UV</a></li>
+                <li><a href="salud.html">Efectos en la Salud</a></li>
+                <li><a href="Protección.html">Protección UV</a></li>
+                <li><a href="indice.html">Índice UV</a></li>
+                <li><a href="AlertraUV.html">Alerta UV</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
